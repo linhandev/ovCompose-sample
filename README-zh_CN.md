@@ -355,6 +355,8 @@ Compose 源码
    }
    ```
 
+   接下来在DevEco Studio中构建鸿蒙应用，安装到真机/模拟器运行。也可以在 composeApp 中执行 `startHarmonyAppDebug` 或 `startHarmonyAppRelease` gradle任务，完成整个kotlin项目构建，复制产物，鸿蒙项目构建，发送真机/模拟器运行流程。
+
 ### 在Compose中使用ArkUI
 
 ovCompose可与ArkUI框架混排。您可以将 Compose Multiplatform 嵌入到 ArkUI 应用中，也可以将原生 ArkUI
